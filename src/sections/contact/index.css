@@ -15,12 +15,9 @@
   flex: 1;
   padding: 2.5rem .25rem;
 
-  & h2 {
-    margin-bottom: 5rem;
-  }
-
   & p {
     line-height: 2.25rem;
+    margin: 2.4rem 0 4rem 0;
     width: 90%;
   }
 }
