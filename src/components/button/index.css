@@ -1,0 +1,29 @@
+button.btn, a.btn {
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	padding: 1.8rem 3.6rem;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.4rem;
+}
+
+.btn[disabled] {
+	opacity: 0.75;
+	pointer-events: none;
+}
+
+.btn.btn__color {
+	background-color: #ED4C5C;
+	color: white;
+}
+
+.btn.btn__white {
+	background-color: white;
+	color: #ED4C5C;
+}
+
+.btn.btn__none {
+	border-radius: 0;
+	padding: 0;
+}

@@ -1,8 +1,9 @@
-import Image from '../image'
+import Button from '../button';
 import Heading from '../heading';
+import Image from '../image'
 import Text from '../text';
-import './index.css'
 
+import './index.css'
 
 const ImageCard = ({image, heading, text, link}) => {
   return (
@@ -11,7 +12,7 @@ const ImageCard = ({image, heading, text, link}) => {
       <div className='imageCard__content'>
         <Heading level={3}>{heading}</Heading>
         <Text className="imageCard__text"> {text} </Text>
-        <a href={link} className='imageCard__link'>Read More</a>
+        <Button type="link" href={link}>Read More</Button>
       </div>
     </div>
   )

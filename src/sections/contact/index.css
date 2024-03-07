@@ -1,3 +1,61 @@
 .contact {
-  height: 30rem;
+  padding: 9rem 0;
+
+  & .container {
+    margin: 0 auto;
+    max-width: 111rem;
+  }
+}
+
+.contact__form {
+  display: flex;
+}
+
+.contact__form--intro {
+  flex: 1;
+  padding: 2.5rem .25rem;
+
+  & h2 {
+    margin-bottom: 5rem;
+  }
+
+  & p {
+    line-height: 2.25rem;
+    width: 90%;
+  }
+}
+
+.contact__form--fields {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  & :nth-child(1), :nth-child(2) {
+    width: 47.5%;
+  }
+
+  input {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 1.5rem 0;
+    width: 100%;
+
+    &::placeholder {
+      opacity: .6;
+    }
+  }
+
+  button {
+    margin-top: 1rem;
+  }
+
+  p {
+    color: #ED4C5C;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+  }
 }
