@@ -1,9 +1,9 @@
-import Button from '../../components/button';
-import Heading from '../../components/heading';
-// import Rating from '../../components/rating';
-import Text from '../../components/text';
+import Button from "../../components/button";
+import Heading from "../../components/heading";
+// import Rating from "../../components/rating";
+import Text from "../../components/text";
 
-import './index.css';
+import "./index.css";
 
 const Intro = () => {
   return (
